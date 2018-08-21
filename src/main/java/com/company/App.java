@@ -10,13 +10,13 @@ public class App {
 
 
         //Using the decapitalised class name "car"
-//        Vehicle obj = (Vehicle)context.getBean("car");
-//        obj.drive();
+        //        Vehicle obj = (Vehicle)context.getBean("car");
+        //        obj.drive();
 
-//        Tyre t = (Tyre)context.getBean("tyre");
-//        System.out.println(t);
+        //        Tyre t = (Tyre)context.getBean("tyre");
+        //        System.out.println(t);
 
-Car obj = (Car)context.getBean("car");
+        Car obj = (Car)context.getBean("car");
         System.out.println(obj);
 
     }
